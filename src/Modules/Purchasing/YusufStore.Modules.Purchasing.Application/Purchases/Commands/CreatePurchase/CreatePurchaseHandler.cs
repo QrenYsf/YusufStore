@@ -11,7 +11,6 @@ public class CreatePurchaseHandler(IApplicationDbContext dbContext)
 
         return new CreatePurchaseResult(purchase.Id.Value);
     }
-
     private Purchase CreateNewPurchase(PurchaseDto purchaseDto)
     {
         var shippingAddress = Address.Of(purchaseDto.ShippingAddress.FirstName, purchaseDto.ShippingAddress.LastName, purchaseDto.ShippingAddress.EmailAddress, purchaseDto.ShippingAddress.AddressLine, purchaseDto.ShippingAddress.Country, purchaseDto.ShippingAddress.State, purchaseDto.ShippingAddress.ZipCode);
