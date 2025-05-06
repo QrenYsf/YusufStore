@@ -1,0 +1,13 @@
+﻿global using Carter;
+global using Mapster;
+global using MediatR;
+global using YusufStore.Modules.Product.API.Infrastructure.Extensions;
+global using YusufStore.Core.Core.CQRS;
+global using Entity=YusufStore.Modules.Product.API.Models;
+global using Marten;
+global using YusufStore.Modules.Product.API.Exceptions;
+global using FluentValidation;
+global using YusufStore.Core.Core.Behaviors;
+global using YusufStore.Core.Core.Exceptions.Handler;
+global using YusufStore.Core.Core.Exceptions;
+global using YusufStore.Modules.Product.API.Data;

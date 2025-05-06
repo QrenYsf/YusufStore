@@ -1,0 +1,50 @@
+services:
+  productdb:
+    image: postgres
+
+  cartdb:
+    image: postgres
+
+  identitydb:
+    image: postgres
+
+  distributedcache:
+    image: redis
+
+  purchasedb:
+    image: mcr.microsoft.com/mssql/server
+
+  messagebroker:
+    image: rabbitmq:management
+
+  yusufstore.modules.cart.api:
+    image: ${DOCKER_REGISTRY-}yusufstoremodulescartapi
+    build:
+      context: .
+      dockerfile: Modules/Cart/YusufStore.Modules.Cart.API/Dockerfile
+
+  yusufstore.modules.product.api:
+    image: ${DOCKER_REGISTRY-}yusufstoremodulesproductapi
+    build:
+      context: .
+      dockerfile: Modules/Product/YusufStore.Modules.Product.API/Dockerfile
+
+  yusufstore.modules.promotion.grpc:
+    image: ${DOCKER_REGISTRY-}yusufstoremodulespromotiongrpc
+    build:
+      context: .
+      dockerfile: Modules/Promotion/YusufStore.Modules.Promotion.Grpc/Dockerfile
+
+  yusufstore.modules.purchasing.api:
+    image: ${DOCKER_REGISTRY-}yusufstoremodulespurchasingapi
+    build:
+      context: .
+      dockerfile: Modules/Purchasing/YusufStore.Modules.Purchasing.API/Dockerfile
+      
+  identity:
+    image: quay.io/keycloak/keycloak:latest
+    
+volumes:
+    postgres_product:
+    postgres_cart:
+    postgres_identity:

@@ -1,0 +1,17 @@
+﻿global using YusufStore.Modules.Purchasing.Domain.Models;
+global using YusufStore.Modules.Purchasing.Domain.ValueObjects;
+global using YusufStore.Core.Core.CQRS;
+global using YusufStore.Core.Core.Exceptions;
+global using YusufStore.Core.Core.Behaviors;
+global using YusufStore.Core.Core.Pagination;
+global using YusufStore.Core.Messaging.MassTransit;
+global using YusufStore.Core.Messaging.Events;
+global using YusufStore.Modules.Purchasing.Application.Data;
+global using YusufStore.Modules.Purchasing.Application.Dtos;
+global using YusufStore.Modules.Purchasing.Application.Exceptions;
+global using MediatR;
+global using FluentValidation;
+global using Microsoft.Extensions.Logging;
+global using YusufStore.Modules.Purchasing.Domain.Events;
+global using Microsoft.EntityFrameworkCore;
+global using YusufStore.Modules.Purchasing.Application.Extensions;

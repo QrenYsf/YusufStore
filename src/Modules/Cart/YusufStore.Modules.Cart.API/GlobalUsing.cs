@@ -1,0 +1,14 @@
+﻿global using YusufStore.Modules.Cart.API.Models;
+global using YusufStore.Core.Core.CQRS;
+global using Carter;
+global using MediatR;
+global using Mapster;
+global using FluentValidation;
+global using YusufStore.Core.Core.Behaviors;
+global using YusufStore.Core.Core.Exceptions;
+global using YusufStore.Modules.Cart.API.Exceptions;
+global using Marten;
+global using YusufStore.Modules.Cart.API.Data;
+global using YusufStore.Core.Core.Exceptions.Handler;
+global using YusufStore.Modules.Cart.API.Dtos;
+global using YusufStore.Core.Messaging.Events;
