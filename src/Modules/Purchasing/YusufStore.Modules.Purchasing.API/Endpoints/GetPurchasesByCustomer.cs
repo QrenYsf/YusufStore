@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByCustomer;
+using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByCustomer;
 
 namespace YusufStore.Modules.Purchasing.API.Endpoints;
 public record GetPurchasesByCustomerResponse(IEnumerable<PurchaseDto> Purchases);

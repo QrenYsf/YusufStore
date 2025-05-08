@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
+namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
 public abstract class Entity<T> : IEntity<T>
 {
     public T Id { get; set; }

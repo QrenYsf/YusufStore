@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Exceptions;
+namespace YusufStore.Modules.Purchasing.Domain.Exceptions;
 public class DomainException : Exception
 {
     public DomainException(string message)

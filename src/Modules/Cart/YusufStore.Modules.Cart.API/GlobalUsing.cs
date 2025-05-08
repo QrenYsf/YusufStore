@@ -1,4 +1,4 @@
-﻿global using YusufStore.Modules.Cart.API.Models;
+global using YusufStore.Modules.Cart.API.Models;
 global using YusufStore.Core.Core.CQRS;
 global using Carter;
 global using MediatR;

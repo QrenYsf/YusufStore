@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Dtos;
+namespace YusufStore.Modules.Purchasing.Application.Dtos;
 public record AddressDto(
     string FirstName, 
     string LastName, 

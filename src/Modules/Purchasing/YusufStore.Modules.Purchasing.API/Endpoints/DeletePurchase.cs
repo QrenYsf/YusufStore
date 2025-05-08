@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Application.Purchases.Commands.DeletePurchase;
+using YusufStore.Modules.Purchasing.Application.Purchases.Commands.DeletePurchase;
 
 namespace YusufStore.Modules.Purchasing.API.Endpoints;
 public record DeletePurchaseResponse(bool IsSuccess);

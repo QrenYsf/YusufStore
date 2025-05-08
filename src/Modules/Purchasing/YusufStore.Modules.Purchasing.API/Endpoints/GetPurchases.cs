@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchases;
+using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchases;
 
 namespace YusufStore.Modules.Purchasing.API.Endpoints;
 public record GetPurchasesResponse(PaginatedResult<PurchaseDto> Purchases);

@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.CreatePurchase;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.CreatePurchase;
 
 public record CreatePurchaseCommand(PurchaseDto Purchase)
     : ICommand<CreatePurchaseResult>;

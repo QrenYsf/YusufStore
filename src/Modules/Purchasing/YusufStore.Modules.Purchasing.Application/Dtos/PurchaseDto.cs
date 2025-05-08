@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Domain.Enums;
+using YusufStore.Modules.Purchasing.Domain.Enums;
 
 namespace YusufStore.Modules.Purchasing.Application.Dtos;
 public record PurchaseDto(

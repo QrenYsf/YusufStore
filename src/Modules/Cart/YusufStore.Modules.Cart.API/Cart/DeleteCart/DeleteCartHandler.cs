@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Cart.API.Cart.DeleteCart;
+namespace YusufStore.Modules.Cart.API.Cart.DeleteCart;
 
 public record DeleteCartCommand(string UserName) : ICommand<DeleteCartResult>;
 public record DeleteCartResult(bool IsSuccess);

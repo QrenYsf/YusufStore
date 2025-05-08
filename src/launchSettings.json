@@ -3,11 +3,8 @@
     "Docker Compose": {
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
-      "serviceActions": {
-        "catalog.api": "StartDebugging",
-        "basket.api": "StartDebugging",
-        "Promotion.grpc": "StartDebugging",
-        "ordering.api": "StartDebugging",
+      "serviceActions": {        
+        "yusufstore.modules.cart.api": "StartDebugging",
         "yusufstore.modules.product.api": "StartDebugging",
         "yusufstore.modules.promotion.grpc": "StartDebugging",
         "yusufstore.modules.purchasing.api": "StartDebugging"

@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 
 namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
 public interface IDomainEvent : INotification

@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Cart.API.Data;
+namespace YusufStore.Modules.Cart.API.Data;
 
 public class CartRepository(IDocumentSession session)
     : ICartRepository

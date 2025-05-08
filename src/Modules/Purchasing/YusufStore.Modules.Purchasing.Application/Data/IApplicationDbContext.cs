@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Data;
+namespace YusufStore.Modules.Purchasing.Application.Data;
 public interface IApplicationDbContext
 {
     DbSet<Customer> Customers { get; }

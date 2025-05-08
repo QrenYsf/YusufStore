@@ -1,4 +1,4 @@
-﻿using MassTransit;
+using MassTransit;
 using YusufStore.Modules.Purchasing.Application.Purchases.Commands.CreatePurchase;
 
 namespace YusufStore.Modules.Purchasing.Application.Purchases.EventHandlers.Integration;

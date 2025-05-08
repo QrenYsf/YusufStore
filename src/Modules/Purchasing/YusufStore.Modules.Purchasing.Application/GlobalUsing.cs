@@ -1,4 +1,4 @@
-﻿global using YusufStore.Modules.Purchasing.Domain.Models;
+global using YusufStore.Modules.Purchasing.Domain.Models;
 global using YusufStore.Modules.Purchasing.Domain.ValueObjects;
 global using YusufStore.Core.Core.CQRS;
 global using YusufStore.Core.Core.Exceptions;

@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Models;
+namespace YusufStore.Modules.Purchasing.Domain.Models;
 public class PurchaseItem : Entity<PurchaseItemId>
 {
     internal PurchaseItem(PurchaseId purchaseId, ProductId productId, int quantity, decimal price)

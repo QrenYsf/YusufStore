@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Product.API.Products.GetProductByCategory;
+namespace YusufStore.Modules.Product.API.Products.GetProductByCategory;
 public record GetProductByCategoryQuery(string Category) : IQuery<GetProductByCategoryResult>;
 public record GetProductByCategoryResult(IEnumerable<Entity.Product> Products);
 

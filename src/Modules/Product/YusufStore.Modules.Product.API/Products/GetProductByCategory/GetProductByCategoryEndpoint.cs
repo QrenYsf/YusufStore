@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Product.API.Products.GetProductByCategory;
+namespace YusufStore.Modules.Product.API.Products.GetProductByCategory;
 public record GetProductByCategoryResponse(IEnumerable<Entity.Product> Products);
 
 public class GetProductByCategoryEndpoint : ICarterModule

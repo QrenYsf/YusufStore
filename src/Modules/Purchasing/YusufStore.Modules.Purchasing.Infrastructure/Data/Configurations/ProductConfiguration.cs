@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace YusufStore.Modules.Purchasing.Infrastructure.Data.Configurations;
 public class ProductConfiguration : IEntityTypeConfiguration<Product>

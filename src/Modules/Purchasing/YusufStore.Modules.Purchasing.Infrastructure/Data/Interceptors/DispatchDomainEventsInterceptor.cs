@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace YusufStore.Modules.Purchasing.Infrastructure.Data.Interceptors;

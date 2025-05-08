@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByName;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByName;
 
 public record GetPurchasesByNameQuery(string Name)
     : IQuery<GetPurchasesByNameResult>;

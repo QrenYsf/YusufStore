@@ -1,4 +1,4 @@
-﻿namespace Promotion.Grpc.Models;
+namespace Promotion.Grpc.Models;
 
 public class Coupon
 {

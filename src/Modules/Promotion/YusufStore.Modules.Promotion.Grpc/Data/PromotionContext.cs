@@ -1,4 +1,4 @@
-﻿using Promotion.Grpc.Models;
+using Promotion.Grpc.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Promotion.Grpc.Data;

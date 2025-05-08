@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Cart.API.Dtos;
+namespace YusufStore.Modules.Cart.API.Dtos;
 
 public class CartCheckoutDto
 {

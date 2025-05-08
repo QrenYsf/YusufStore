@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Cart.API.Cart.GetCart;
+namespace YusufStore.Modules.Cart.API.Cart.GetCart;
 
 public record GetCartQuery(string UserName) : IQuery<GetCartResult>;
 public record GetCartResult(ShoppingCart Cart);

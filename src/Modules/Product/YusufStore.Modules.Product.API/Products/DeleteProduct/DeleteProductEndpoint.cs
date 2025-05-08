@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Product.API.Products.DeleteProduct;
+namespace YusufStore.Modules.Product.API.Products.DeleteProduct;
 public record DeleteProductResponse(bool IsSuccess);
 
 public class DeleteProductEndpoint : ICarterModule

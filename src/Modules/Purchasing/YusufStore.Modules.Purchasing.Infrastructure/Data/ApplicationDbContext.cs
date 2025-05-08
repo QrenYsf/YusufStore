@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Application.Data;
+using YusufStore.Modules.Purchasing.Application.Data;
 using System.Reflection;
 
 namespace YusufStore.Modules.Purchasing.Infrastructure.Data;

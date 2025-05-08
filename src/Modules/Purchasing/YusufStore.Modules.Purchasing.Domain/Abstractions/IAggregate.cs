@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
+namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
 public interface IAggregate<T> : IAggregate, IEntity<T>
 {
 }

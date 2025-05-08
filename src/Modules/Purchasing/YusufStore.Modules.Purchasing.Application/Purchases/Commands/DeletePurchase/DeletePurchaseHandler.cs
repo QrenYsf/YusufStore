@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.DeletePurchase;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.DeletePurchase;
 public class DeletePurchaseHandler(IApplicationDbContext dbContext)
     : ICommandHandler<DeletePurchaseCommand, DeletePurchaseResult>
 {

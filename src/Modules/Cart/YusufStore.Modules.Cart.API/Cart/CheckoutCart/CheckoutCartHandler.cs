@@ -1,4 +1,4 @@
-﻿using MassTransit;
+using MassTransit;
 namespace YusufStore.Modules.Cart.API.Cart.CheckoutCart;
 
 public class CheckoutCartCommand : ICommand<CheckoutCartResult>

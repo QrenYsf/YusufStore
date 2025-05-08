@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
+namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
 public interface IEntity<T> : IEntity
 {
     public T Id { get; set; }

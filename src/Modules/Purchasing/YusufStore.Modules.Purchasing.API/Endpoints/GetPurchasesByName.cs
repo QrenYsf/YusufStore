@@ -1,4 +1,4 @@
-﻿using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByName;
+using YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchasesByName;
 
 namespace YusufStore.Modules.Purchasing.API.Endpoints;
 

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using YusufStore.Modules.Purchasing.Domain.Enums;
 
 namespace YusufStore.Modules.Purchasing.Infrastructure.Data.Configurations;
