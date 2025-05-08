@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Enums;
+namespace YusufStore.Modules.Purchasing.Domain.Enums;
 public enum PurchaseStatus
 {
     Draft = 1,

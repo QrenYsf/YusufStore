@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Core.Messaging.Events;
+namespace YusufStore.Core.Messaging.Events;
 public record CartCheckoutEvent : IntegrationEvent
 {
     public string UserName { get; set; } = default!;

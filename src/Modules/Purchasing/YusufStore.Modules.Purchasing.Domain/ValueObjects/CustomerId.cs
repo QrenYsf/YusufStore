@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.ValueObjects;
+namespace YusufStore.Modules.Purchasing.Domain.ValueObjects;
 public record CustomerId
 {
     public Guid Value { get; }

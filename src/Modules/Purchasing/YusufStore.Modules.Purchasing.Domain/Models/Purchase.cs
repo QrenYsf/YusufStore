@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Models;
+namespace YusufStore.Modules.Purchasing.Domain.Models;
 public class Purchase : Aggregate<PurchaseId>
 {
     private readonly List<PurchaseItem> _purchaseItems = new();

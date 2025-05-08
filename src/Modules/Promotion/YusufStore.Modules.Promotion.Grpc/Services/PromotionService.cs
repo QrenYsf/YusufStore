@@ -1,4 +1,4 @@
-﻿using Promotion.Grpc.Data;
+using Promotion.Grpc.Data;
 using Promotion.Grpc.Models;
 using Grpc.Core;
 using Mapster;

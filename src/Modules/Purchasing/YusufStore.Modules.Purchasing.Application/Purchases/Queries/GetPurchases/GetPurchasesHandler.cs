@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchases;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.Queries.GetPurchases;
 public class GetPurchasesHandler(IApplicationDbContext dbContext)
     : IQueryHandler<GetPurchasesQuery, GetPurchasesResult>
 {

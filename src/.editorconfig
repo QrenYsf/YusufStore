@@ -1,0 +1,13 @@
+# Tüm dosyalar için geçerli ayarlar
+[*]
+indent_style = space              # Tab yerine boşluk kullan
+indent_size = 4                   # Her tab = 4 boşluk
+end_of_line = crlf                # Satır sonu CRLF (Windows)
+charset = utf-8                   # UTF-8 karakter kodlaması
+insert_final_newline = true       # Dosya sonunda boş satır olsun
+trim_trailing_whitespace = true   # Satır sonundaki gereksiz boşlukları sil
+
+# Yalnızca C# dosyaları için
+[*.cs]
+dotnet_sort_system_directives_first = true
+csharp_new_line_before_open_brace = all

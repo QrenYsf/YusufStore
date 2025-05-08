@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Infrastructure.Data.Extensions;
+namespace YusufStore.Modules.Purchasing.Infrastructure.Data.Extensions;
 internal class InitialData
 {
     public static IEnumerable<Customer> Customers =>

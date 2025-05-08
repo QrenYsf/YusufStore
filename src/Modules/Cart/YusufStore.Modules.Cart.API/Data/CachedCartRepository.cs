@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Distributed;
 using System.Text.Json;
 
 namespace YusufStore.Modules.Cart.API.Data;

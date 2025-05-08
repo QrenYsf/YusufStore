@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Product.API.Products.DeleteProduct;
+namespace YusufStore.Modules.Product.API.Products.DeleteProduct;
 public record DeleteProductCommand(Guid Id) : ICommand<DeleteProductResult>;
 public record DeleteProductResult(bool IsSuccess);
 

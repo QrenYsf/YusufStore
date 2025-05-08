@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Core.Core.Pagination;
+namespace YusufStore.Core.Core.Pagination;
 public class PaginatedResult<TEntity>
     (int pageIndex, int pageSize, long count, IEnumerable<TEntity> data) 
     where TEntity : class

@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Cart.API.Models;
+namespace YusufStore.Modules.Cart.API.Models;
 
 public class ShoppingCart
 {

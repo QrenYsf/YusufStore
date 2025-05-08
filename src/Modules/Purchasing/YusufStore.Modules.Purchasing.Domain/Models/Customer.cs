@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.Models;
+namespace YusufStore.Modules.Purchasing.Domain.Models;
 public class Customer : Entity<CustomerId>
 {
     public string Name { get; private set; } = default!;

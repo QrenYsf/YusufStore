@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.UpdatePurchase;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.Commands.UpdatePurchase;
 public class UpdatePurchaseHandler(IApplicationDbContext dbContext)
     : ICommandHandler<UpdatePurchaseCommand, UpdatePurchaseResult>
 {

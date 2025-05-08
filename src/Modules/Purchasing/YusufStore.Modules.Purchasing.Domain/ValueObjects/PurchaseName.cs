@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Domain.ValueObjects;
+namespace YusufStore.Modules.Purchasing.Domain.ValueObjects;
 public record PurchaseName
 {  
     public string Value { get; }

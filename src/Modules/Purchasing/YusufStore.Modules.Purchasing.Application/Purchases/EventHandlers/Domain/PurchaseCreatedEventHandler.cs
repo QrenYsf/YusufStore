@@ -1,4 +1,4 @@
-﻿using MassTransit;
+using MassTransit;
 using Microsoft.FeatureManagement;
 
 namespace YusufStore.Modules.Purchasing.Application.Purchases.EventHandlers.Domain;

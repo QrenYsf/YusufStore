@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Extensions;
+namespace YusufStore.Modules.Purchasing.Application.Extensions;
 public static class PurchaseExtensions
 {
     public static IEnumerable<PurchaseDto> ToPurchaseDtoList(this IEnumerable<Purchase> purchases)

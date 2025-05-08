@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Modules.Purchasing.Application.Purchases.EventHandlers.Domain;
+namespace YusufStore.Modules.Purchasing.Application.Purchases.EventHandlers.Domain;
 public class PurchaseUpdatedEventHandler(ILogger<PurchaseUpdatedEventHandler> logger)
     : INotificationHandler<PurchaseUpdatedEvent>
 {

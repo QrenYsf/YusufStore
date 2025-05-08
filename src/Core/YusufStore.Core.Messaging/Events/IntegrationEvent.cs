@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Core.Messaging.Events;
+namespace YusufStore.Core.Messaging.Events;
 public record IntegrationEvent
 {
     public Guid Id => Guid.NewGuid();

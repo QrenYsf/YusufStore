@@ -1,4 +1,4 @@
-﻿
+
 namespace YusufStore.Modules.Purchasing.Domain.Abstractions;
 public abstract class Aggregate<TId> : Entity<TId>, IAggregate<TId>
 {

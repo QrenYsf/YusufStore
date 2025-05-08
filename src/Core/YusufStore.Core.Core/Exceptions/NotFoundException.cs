@@ -1,4 +1,4 @@
-﻿namespace YusufStore.Core.Core.Exceptions;
+namespace YusufStore.Core.Core.Exceptions;
 public class NotFoundException : Exception
 {
     public NotFoundException(string message) : base(message)
